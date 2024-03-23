@@ -131,3 +131,44 @@ Fine-tuning a pre-trained BERT model with TensorFlow and TensorFlow Hub is a pow
 ---
 
 # d)
+
+# Project Title: Vision Models with Keras-CV
+
+This project explores various computer vision tasks using Keras-CV, focusing on leveraging deep learning models for object detection, image classification, and fine-tuning pretrained models. Our journey encompasses working with the YOLO model for object detection, utilizing pretrained classifiers for inference, fine-tuning pretrained backbones, training image classifiers from scratch, and training custom object detection models.
+
+## Object Detection with YOLO
+
+We explored object detection using the YOLO (You Only Look Once) model, emphasizing its efficiency and accuracy in identifying and localizing multiple objects within an image.
+
+## Inference with Pretrained Classifiers
+
+Leveraging pretrained classifiers allowed us to quickly apply powerful models to new datasets, demonstrating how pre-trained models can be used for efficient image classification without the need for extensive computational resources.
+
+## Fine-Tuning Pretrained Backbones
+
+Fine-tuning involves adjusting pretrained models to new tasks or datasets. We demonstrated how to fine-tune the backbones of well-known architectures to achieve high performance on specialized vision tasks.
+
+## Training an Image Classifier from Scratch
+
+Building upon foundational deep learning concepts, we trained an image classifier from scratch, showcasing the steps involved in model architecture design, training, and evaluation.
+
+## Training Custom Object Detection Models
+
+Expanding our exploration, we delved into training custom object detection models. This advanced task illustrated the complexity and power of tailored models for specific detection tasks.
+
+## Project Structure
+
+- **Object Detection with YOLO**: Utilized the YOLO model for detecting objects in images, highlighting the model's architecture and performance.
+- **Inference with Pretrained Classifier**: Demonstrated inference on new images using classifiers pretrained on large datasets.
+- **Fine-Tuning Pretrained Backbone**: Showcased the process of fine-tuning a pretrained model on a new dataset for enhanced performance.
+- **Training an Image Classifier from Scratch**: Covered the end-to-end process of designing, training, and evaluating an image classifier.
+- **Training Custom Object Detection Models**: Explored the complexities of training object detection models tailored to specific needs.
+
+## Technologies Used
+
+- Keras-CV: For accessing cutting-edge vision models and utilities.
+- TensorFlow: As the backbone for model training, evaluation, and inference.
+- Python: The primary programming language for implementing and orchestrating our machine learning pipelines.
+
+
+
