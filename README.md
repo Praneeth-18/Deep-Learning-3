@@ -83,3 +83,51 @@ The project utilizes the `transformers` library from Hugging Face to implement t
 ## Acknowledgments
 - Data and models leveraged in this project are courtesy of the Hugging Face `transformers` library and their vast ecosystem.
 - This project was inspired by the wide range of applications of NLP in industry and academia, and the continuously evolving landscape of machine learning and AI technologies.
+
+---
+
+# c)
+
+# Sentiment Analysis with BERT
+
+This project demonstrates the process of fine-tuning a BERT model for sentiment analysis tasks using TensorFlow, TensorFlow Hub, and TensorFlow Text. It outlines the steps to prepare, process, and train the model using a dataset for binary sentiment classification.
+
+## Overview
+
+The project involves leveraging a pre-trained BERT model from TensorFlow Hub, processing input data using TensorFlow Text, and fine-tuning the model on a sentiment analysis task. The process is divided into several key steps, including setting up the environment, loading the pre-trained BERT model and preprocessor, preparing the dataset, and training the model.
+
+## Environment Setup
+
+- TensorFlow: Deep learning library for building and training neural network models.
+- TensorFlow Hub: A library for reusable machine learning modules.
+- TensorFlow Text: Provides text-related classes and ops ready to use with TensorFlow 2.0.
+
+Ensure that all packages are installed and compatible with each other to avoid conflicts.
+
+## Model Architecture
+
+The architecture involves three main components:
+
+1. **BERT Preprocessor**: A preprocessing layer from TensorFlow Hub that tokenizes and encodes the input text into formats suitable for BERT.
+2. **BERT Encoder**: The pre-trained BERT model layer, also from TensorFlow Hub, that processes the encoded inputs.
+3. **Custom Layers**: Additional layers added on top of the BERT Encoder for the specific task of sentiment analysis.
+
+## Dataset Preparation
+
+The dataset used for training should be split into training and validation sets, with each example labeled according to sentiment (positive or negative).
+
+## Training Process
+
+The training involves fine-tuning the BERT model on the sentiment analysis task. This can be done by adjusting various parameters and configurations to optimize performance.
+
+## Evaluation
+
+After training, the model's performance is evaluated on a separate test set to assess its accuracy in classifying sentiments.
+
+## Conclusion
+
+Fine-tuning a pre-trained BERT model with TensorFlow and TensorFlow Hub is a powerful approach for various NLP tasks, including sentiment analysis. This project provides a foundational framework for such applications.
+
+---
+
+# d)
